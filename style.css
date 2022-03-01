@@ -132,3 +132,38 @@ body {
 .product-item:hover .product-price {
     color: #fff;
 }
+
+/* Contact Us */
+.contact-us {
+    margin-top: 56px;
+}
+
+.contact-input {
+    display: block;
+    margin-bottom: 16px;
+    padding: 8px 16px;
+    width: 400px;
+}
+
+.contact-button {
+    background-color: #77287d;
+    border: none;
+    color: #ffffff;
+    display: block;
+    padding: 8px 16px;
+    width: 400px;
+}
+
+/* Footer */
+.footer {
+    background-color: #77287d;
+    color: #ffffff;
+    margin-top: 64px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
