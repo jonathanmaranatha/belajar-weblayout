@@ -1,0 +1,69 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+/* ini komentar */
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 860px;
+}
+
+/* Header */
+.header {
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.header-container {
+    align-items: center;
+    display: flex;
+}
+
+.logo {
+    width: 100px;
+}
+
+.menu {
+    margin-left: 40px;
+}
+
+.menu-item {
+    color: #595959;
+    font-size: 16px;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    color: #77287d;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+/* Banner */
+.banner {
+    background-image: url('images/banner.jpg');
+    background-size: cover;
+    height: 500px;
+}
+
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+.banner-title {
+    color: #222222;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.banner-subtitle {
+    color: #595959;
+    font-size: 20px;
+    margin-top: 8px;
+}
